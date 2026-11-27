@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b12">
+  <meta name="description" content="Download the latest Lightfall release.">
+  <title>Lightfall — Downloads</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Lightfall home"><span class="brand-mark">L</span><span>LIGHTFALL</span></a>
+    <a class="github-link" href="https://github.com/ganeshnair298-collab/lightfall" target="_blank" rel="noopener">View on GitHub <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span class="pulse"></span> OFFICIAL RELEASES</div>
+      <h1>Your next<br><span>Windows experience.</span></h1>
+      <p class="intro">Get the latest version of Lightfall from the official GitHub release.</p>
+
+      <section class="download-card" aria-live="polite">
+        <div class="card-top">
+          <div>
+            <div class="label">LATEST VERSION</div>
+            <h2 id="version">Checking releases…</h2>
+          </div>
+          <span class="status" id="status">CONNECTING</span>
+        </div>
+        <p class="release-note" id="release-note">Fetching the latest release from GitHub.</p>
+        <div class="meta">
+          <span id="release-date">Release date —</span>
+          <span id="asset-count">— downloads available</span>
+        </div>
+        <div id="downloads" class="downloads"></div>
+        <p class="fine-print">Downloads are served directly by GitHub. Always verify that you are downloading an official Lightfall release.</p>
+      </section>
+
+      <p class="source">Published by <a href="https://github.com/ganeshnair298-collab" target="_blank" rel="noopener">Ganesh Nair</a> · Powered by GitHub Releases</p>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> Lightfall</span><span>Built for a better desktop.</span></footer>
+</body>
+</html>
